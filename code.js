@@ -22,6 +22,7 @@ function cambiarImagen() {
     var imagen = document.getElementById("imagen_change");
     indice++;
     if (indice >= 2) {
+      imagen.src = 'img/BEFORE.PNG';
       indice = 0;
     }
     imagen.src = imagenes[indice];
