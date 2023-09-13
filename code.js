@@ -24,6 +24,7 @@ function cambiarImagen() {
     if (indice >= 2) {
       indice = 0;
     }
+    console.log(imagenes[indice]);
     imagen.src = imagenes[indice];
   }
 
