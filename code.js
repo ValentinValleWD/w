@@ -1,5 +1,5 @@
 hamburgerButton = document.querySelector('.hamburger-button');
-var imagenes = ['AFTER.png', 'BEFORE.PNG'];
+var imagenes = ['AFTER.png', 'BEFORE.png'];
 var indice = 1;
 var indice1 = 1;
 var indice2 = 1;
